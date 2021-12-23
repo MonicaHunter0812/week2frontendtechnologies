@@ -1,0 +1,49 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    color:black;
+}
+
+div {
+    text-align: center;
+    background-color: aliceblue; 
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 5px;
+    
+}
+
+.shadow-text {
+    text-shadow: lightgrey 1px 1px; 
+}
+
+#medium-text {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 8px;
+    height: 400px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+input {
+    padding: 8px 5px; 
+    margin: 8px 0;  
+}
